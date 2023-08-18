@@ -1,2 +1,27 @@
-
 /* Your CSS Code here. */
+img{
+	width:200px;
+	height:auto;
+	border: 1px solid black;
+}
+#grad{
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	width: 48vw;
+}
+a{
+	text-decoration:none;
+	color: white;
+	background-color: blue;
+	cursor: pointer;
+	font-family: georgia;
+	font-weight: 500;
+	border-radius: 7px;
+	padding: 3px
+}
+a:hover{
+	background-color: red;
+	transition: .2s ease;
+	font-weight: 700;
+	border-radius: 10px;
+	padding:5px;
+}
